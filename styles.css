@@ -1,0 +1,19 @@
+body {
+    background-image: url(static/madeira.jpg);
+    background-size: cover;
+}
+
+.randomBtn {
+    cursor: pointer;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.randomBtn:hover {
+    transform: translateX(calc(50% - 50px));
+}
+
+.staticBtn {
+    position: relative;
+    left: -5%;
+}
