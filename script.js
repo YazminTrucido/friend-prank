@@ -15,4 +15,5 @@ staticBtn.addEventListener("click", function() {
 
 randomBtn.addEventListener("click", function() {
     alert(":p");
+    location.reload();
 });
