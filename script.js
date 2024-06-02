@@ -10,6 +10,7 @@ randomBtn.addEventListener("mouseover", function() {
 
 staticBtn.addEventListener("click", function() {
     alert("Yey!");
+    location.reload();
 });
 
 randomBtn.addEventListener("click", function() {
